@@ -1,0 +1,10 @@
+install pandas
+install xlrd : for reading excel files
+install openpyxl : xlrd recent version only reads xls file do in order to read xlsx file we need openpyxl engine
+import nltk 
+from nltk.corpus import stopwords : for removing stopwords
+from nltk.tokenize import word_tokenize : for tokenizing words
+from nltk.tokenize import sent_tokenize : for tokenizing sentences
+from nltk.stem import PorterStemmer : for stemming
+run py file
+before running py file delete the output file
